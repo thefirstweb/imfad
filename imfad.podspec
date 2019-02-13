@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "imfad"
   s.version      = "2.0.3"
-  s.summary      = "A short description of imfad."
+  s.summary      = "imfad sdk for iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT"}
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
