@@ -50,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark 開始取得廣告
 - (void)requestAd;
+- (void)requestAdWithNoPrompt;
 
 #pragma mark 設定是否輸出除錯訊息
 - (void)debugInfo:(BOOL)state;
@@ -58,11 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)version;
 
 #pragma mark The whole area of the UIView will be clickable.
-- (void)registerViewForInteraction:(UIView *_Nullable)view
-                withViewController:(nullable UIViewController *)viewController;
-
-#pragma mark 如果Ad有設定在Scrollview上
--(void)setScrollviewName:(UIView *)uscro;
+- (void)registerElementsView:(UIView *)elementsView clickView:(NSArray<UIView *> *)view controllervw:(UIViewController *)viewController;
 
 @end
 

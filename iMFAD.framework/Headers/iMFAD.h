@@ -18,6 +18,9 @@ FOUNDATION_EXPORT const unsigned char iMFADVersionString[];
 #import "MFBannerView.h"
 #import "MFInterstitialView.h"
 #import "MFNativeAd.h"
+#import "MFAdInnerInterstitalView.h"
+#import "MFAdMaglev.h"
+#import "MFFloatHover.h"
 
-#define ClickForce_AD_SDK_VERSION @"2.0.3"
+#define ClickForce_AD_SDK_VERSION @"3.8.0"
 
