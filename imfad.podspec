@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "iMFAD.framework/Headers/**/*.{h,m}"
   s.vendored_frameworks = 'iMFAD.framework'
   s.exclude_files = "Classes/Exclude"
-
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # s.public_header_files = "Classes/**/*.h"
 
 
